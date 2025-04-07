@@ -1,25 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Repositorio Git Hub</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica con Jenkins</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+
+    header {
+      text-align: center;
+      padding-bottom: 2rem;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #0a66c2;
+    }
+
+    section {
+      max-width: 800px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+    }
+
+    h2 {
+      color: #1f2937;
+      margin-top: 0;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    footer {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
 </head>
 <body>
-    <h1>Hola, esto es una pàgina desde Linux</h1>
 
-    <h2>Este es un H2 en la pràctica</h2>
-    <p>Hola, aquì va el segundo cambio del proyecto en Git Hub</p>
+  <header>
+    <h1>Integración Continua con Jenkins</h1>
+    <p>Práctica de Virtualización y Automatización</p>
+  </header>
 
-    <p>Hola de nuevo, este es el tercer Commit de la pràctica</p>
+  <section>
+    <h2>¿Qué es Jenkins?</h2>
+    <p>Jenkins es una herramienta de automatización de código abierto escrita en Java, que permite implementar integración continua y entrega continua (CI/CD) en proyectos de software. Ayuda a automatizar las etapas de construcción, prueba e implementación.</p>
 
-    <p>Hola, soy alumno de Virtualizaciòn este semestre</p>
+    <h2>Objetivo de esta práctica</h2>
+    <p>El propósito de esta práctica es implementar un entorno de integración continua utilizando Jenkins. Se configuró un Job que obtiene automáticamente el código fuente desde GitHub y ejecuta tareas de validación en un entorno virtualizado.</p>
 
-    <p>Vamos a ver si sale este nuevo parrafo</p>
-    <p>Tec Zamora</p>
+    <h2>Detalles del entorno</h2>
+    <ul>
+      <li>Repositorio conectado desde GitHub</li>
+      <li>Servidor Apache2 sirviendo el contenido generado</li>
+      <li>Máquina virtual con Jenkins configurado correctamente</li>
+    </ul>
 
-    <p>Pagina Oswaldo</p>
+    <h2>Resultado</h2>
+    <p>El sistema es capaz de construir automáticamente el proyecto HTML tras detectar cambios en el repositorio, ofreciendo así una vista actualizada del progreso mediante una interfaz web sencilla.</p>
+  </section>
 
+  <footer>
+    <p>&copy; 2025 Oswaldo Amézquita &middot; Práctica de Ingeniería en Sistemas</p>
+  </footer>
 
 </body>
 </html>
